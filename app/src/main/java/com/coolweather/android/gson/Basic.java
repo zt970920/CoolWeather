@@ -12,4 +12,10 @@ public class Basic {
 
     @SerializedName("id")
     public String weatherId;
+
+    public Update update;
+    public class Update{
+        @SerializedName("loc")
+        public String updateTime;
+    }
 }
